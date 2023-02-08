@@ -6,4 +6,31 @@
 .container{
     display: flex;
     justify-content: space-between;
+    width: 85vw;
+}
+
+.logo_header{
+    height: 5rem;
+}
+.menu_content{
+    display: flex;
+}
+.btn_logo{
+    height: 2rem;
+    
+}
+.btn{
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: rgb(93, 143, 212);
+    border-radius: .3rem;
+    padding: 0 .7rem;
+}
+.myTrips{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
 }
